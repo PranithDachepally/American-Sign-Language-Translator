@@ -85,8 +85,3 @@ def predict(svm,img):
     samples = hog_simple(img)
     resp = svm.predict(samples)
     return resp
-
-
-
-
-
